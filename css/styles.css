@@ -1,6 +1,8 @@
 :root {
   --paragraf-color: #434455;
   --heading-color: #2e2f42;
+  --btn-color: #4d5ae5;
+  --btn-bgcolor: #f4f4fd;
 }
 
 body {
@@ -31,7 +33,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -46,7 +47,6 @@ body {
 
 .nav-link {
   color: var(--heading-color);
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
 }
 .nav-link:hover,
@@ -59,7 +59,6 @@ body {
 }
 
 .address-link {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -118,7 +117,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--heading-color);
 }
 
 /* ------------------- WHATWEDO */
@@ -170,8 +169,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--btn-color);
+  background-color: var(--btn-bgcolor);
   text-transform: capitalize;
 }
 
